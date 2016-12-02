@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "pokemon-solid";
+    src: url("Fonts/pokemon solid.ttf")
+}
+@font-face {
+    font-family: "soft-marshmallow";
+    src: url("Fonts/soft marshmallow.otf")
+}
+
+#pokemon {
+    font-family: pokemon-solid, cursive, fantasy;
+    color: yellowgreen;
+    font-size: 80px;
+}
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 90px;
+    color: whitesmoke;
+}
+
+nav {
+    text-align: left;
+    font-family: pokemon-solid, Cursive, fantasy;
+}
+
+.type {
+    font-size: 40px;
+    padding-left: 13px;
+    height: auto;
+}
+
+a href:hover {
+    color: red;
+}
+
+html {
+    background-image: url(Images/Some%20Pokemon.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.intro {
+    text-align: center;
+    font-family: monospace;
+    font-size: 35px;
+    color: whitesmoke;
+}
+p {
+    text-align: center;
+    font-family: soft-marshmallow;
+    font-size:35px;
+    color: whitesmoke;
+}
+#first {
+    color: white;
+    font-size: 35px;
+    font-family: soft-marshmallow;
+    color: whitesmoke;
+}
+
+table, th, td {
+    border-bottom: 10px solid blue;
+    text-align: center;
+}
